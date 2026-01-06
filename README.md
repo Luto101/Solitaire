@@ -2,7 +2,7 @@
 This is a Solitaire game in console and it was a project qualifying for the final of the nationwide Gigathon 2025 competition.
 
 # Requirements
-Visual Studio 2022 (or newer) with .NET 8 support
+Visual Studio 2022 (or newer) with .NET 8 support  
 .NET 8 SDK (https://dotnet.microsoft.com/download/dotnet/8.0)
 
 # How to Run the Project
@@ -13,15 +13,15 @@ Visual Studio 2022 (or newer) with .NET 8 support
 The goal is to move all cards into the foundation piles (top-right) by suit, from Ace to King.
 
 ## Controls
-← / A		Move left between piles
-→ / D		Move right between piles
-↑ / W		Move up within a Tableau column
-↓ / S		Move down within a Tableau column
-1–7		Jump directly to Tableau column 1–7
-Enter / Space	Select or place a card
-Tab		Focus on Stock
-Esc		Cancel current move
-Ctrl + Z	Undo last move
+← / A		Move left between piles  
+→ / D		Move right between piles  
+↑ / W		Move up within a Tableau column  
+↓ / S		Move down within a Tableau column  
+1–7		Jump directly to Tableau column 1–7  
+Enter / Space	Select or place a card  
+Tab		Focus on Stock  
+Esc		Cancel current move  
+Ctrl + Z	Undo last move  
 Q		Quit a game
 
 ## Gameplay Overview
