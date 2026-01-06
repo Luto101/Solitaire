@@ -1,3 +1,5 @@
+![Title screen](https://github.com/user-attachments/assets/a02a03df-2b21-4633-b030-b286be1d9758)
+
 # Introduction
 This is a Solitaire game in console and it was a project qualifying for the final of the nationwide Gigathon 2025 competition.
 
@@ -38,5 +40,4 @@ Use ↓ to unselect higher cards or move back down.
 You can jump quickly to a specific Tableau column using keys 1 to 7.
 
 
-![Title screen](https://github.com/user-attachments/assets/a02a03df-2b21-4633-b030-b286be1d9758)
 ![Gameplay](https://github.com/user-attachments/assets/c72a4ff3-ce95-4061-903f-c5c9b7c4c72f)
