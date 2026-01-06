@@ -53,10 +53,9 @@ namespace Solitaire.Renderers
         /// </summary>
         private static void CheckBuffer()
         {
-            // 120 is the minimum buffer width
-            while (Console.BufferWidth < 120)
+            while (Console.BufferWidth < 120 || Console.BufferHeight < 40)
             {
-                Console.WriteLine("Increase the window width!!!");
+                Console.WriteLine("Increase the window size!!!");
 
                 Thread.Sleep(1000);
 

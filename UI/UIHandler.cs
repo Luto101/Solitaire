@@ -34,6 +34,7 @@ namespace Solitaire.UI
                 switch (choice)
                 {
                     case 1:
+                        InformAboutFullScreen();
                         return true;
                     case 2:
                         DisplayControls();
@@ -168,6 +169,16 @@ namespace Solitaire.UI
             Console.WriteLine("Q                Quit a game");
 
             OptionsUI.GetChoice(["Return"], 16, 11);
+        }
+
+        private static void InformAboutFullScreen()
+        {
+            Console.Clear();
+
+            Console.WriteLine("Ensure that the console in in a full screen mode (press F11)");
+            OptionsUI.GetChoice(["OK"], 24);
+
+            Console.Clear();
         }
     }
 }
