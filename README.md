@@ -1,16 +1,18 @@
-Requirements
+# Introduction
+This is a Solitaire game in console and it was a project qualifying for the final of the nationwide Gigathon 2025 competition.
+
+# Requirements
 Visual Studio 2022 (or newer) with .NET 8 support
 .NET 8 SDK (https://dotnet.microsoft.com/download/dotnet/8.0)
 
-How to Run the Project
+# How to Run the Project
 1. Open the Solitaire.sln file in Visual Studio.
 2. Run the application (F5 or Ctrl + F5).
 
-
-Solitaire – User Manual
+# Solitaire – User Manual
 The goal is to move all cards into the foundation piles (top-right) by suit, from Ace to King.
 
-Controls
+## Controls
 ← / A		Move left between piles
 → / D		Move right between piles
 ↑ / W		Move up within a Tableau column
@@ -22,7 +24,7 @@ Esc		Cancel current move
 Ctrl + Z	Undo last move
 Q		Quit a game
 
-Gameplay Overview
+## Gameplay Overview
 Tableau (bottom rows): Where you organize cards in descending order, alternating colors. Only face-up cards can be moved.
 
 Foundation (top-right): If a card can be legally placed on the Foundation, it will be move there automatically by only picking it.
